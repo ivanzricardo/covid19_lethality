@@ -1,5 +1,5 @@
 ###################### COVID-19 LETHALITY IN BRAZIL ######################################################
-# Script for analyzing COVID-19-related AIH data in Brazil (DOI: 10.1371/journal.pone.0254633            #
+# Script for analyzing COVID-19-related AIH data in Brazil (DOI: 10.1371/journal.pone.0254633)           #
 # Last update: 07/16/2021 (ivan.zimmermann@unb.br)                                                       #
 ############################ START #######################################################################
 
@@ -7,13 +7,11 @@
 install.packages("tidyverse")
 install.packages("sqldf")
 install.packages("eeptools")
+install.packages("ggpubr")
 
 #Call packages
-library(read.dbc)
 library(tidyverse)
-library(data.table)
 library(sqldf)
-library(RCurl)
 library(eeptools)
 library(ggpubr)
 
